@@ -6,7 +6,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/salomonelli/best-resume-ever.git"
+    "url": "git+https://github.com/AJLoveChina/resume.git"
   },
   "scripts": {
     "docs": "node build/build.js",

@@ -1,92 +1,80 @@
 /* #*/ export const PERSON = `
 name:
-  first: John
+  first: 霸都
   middle:
-  last: Doe
-about: Hi, my name is John Doe. I"m just about the most boring type of person you could
-       possibly imagine. I like collecting leaves from the tree in my back yard and documenting
-       each time I eat a peanut that is non-uniform. I am not a robot. Please hire me.
-position: Software Developer
+  last: 傲天
+about: 霸都峡谷写代码+做饭综合能力排行榜第一.
+position: 前端开发工程师
 
 birth:
-  year: 1990
-  location: New York
+  year: 1993
+  location: 合肥
 
 experience:
-- company: Company A
-  position: Developer
-  timeperiod: since January 2016
-  description: Programming and watching cute cat videos.
-  website: https://example.com
+- company: ZOOM
+  position: 前端
+  timeperiod: since 2018.5
+  description: 负责ZOOM视频会议web客户端的开发工作, 主要使用的技术如webrtc丶webassemly丶webWorker丶webpack丶vuejs等等. 我们的前端涉及的技术领域很深,
+            一方面是复杂的UI界面, 另一方面是webrtc接口的适配库, 还有XMPP服务相关的集成. 同时涉及大量音视频处理相关的技术, 包括不限于audioWorlet丶音视频编解码(WASM)
+            丶QOS等等.
+  website: http://hejie.nigeerhuo.com
 
-- company: Company B
-  position: Frontend Developer
-  timeperiod: January 2015 - December 2015
-  description: Fulfillment of extremely important tasks.
-
-- company: Company C
-  position: Trainee
-  timeperiod: March 2014 - December 2014
-  description: Making coffee and baking cookies.
+- company: 科大讯飞
+  position: 前端
+  timeperiod: 2017.2 ~ 2018.5
+  description: 虽然我飞在大家印象中是一家比较保守的IT公司, 但是我们前端组依然使用的是业界最前沿的开发技术.
 
 education:
-- degree: Master of Arts
-  timeperiod: March 2012 - December 2013
-  description: Major in Hacking and Computer Penetration, University A, New York, USA.
-  website: https://example.com
-
-- degree: Bachelor of Science
-  timeperiod: March 2009 - December 2011
-  description: Major in Engineering, University B, Los Angeles, USA.
+- degree: 合工大-电子信息工程
+  timeperiod: 2012.9 ~2016.6
+  description: 我喜欢在翡翠湖边上一坐就是一个静谧的下午
+  website: http://hejie.ngieerhuo.com
 
 # skill level goes 0 to 100
 skills:
 - name: HTML5
   level: 99
-- name: CSS3
-  level: 95
 - name: JavaScript
   level: 97
 - name: Node.js
   level: 93
-- name: Angular 2
-  level: 60
-- name: TypeScript
+- name: Vue
   level: 80
-- name: ES.Next
+- name: WebRTC
   level: 70
-- name: Docker
-  level: 99
-knowledge: Also proficient in Adobe Photoshop and Illustrator, grew up bilingual
-  (English and Klingon).
+- name: webassemly
+  level: 50
+- name: webpack
+  level: 70
+knowledge: 对于厨艺丶视频制作丶Photoshop都会一些
 
 projects:
-- name: best-resume-ever
+- name: resume
   platform: Vue
-  description: 👔 💼 Build fast 🚀 and easy multiple beautiful resumes and create your best CV ever! Made with Vue and LESS.
-  url: https://github.com/salomonelli/best-resume-ever
+  description: 改改数据创作多款个人简历
+  url: https://github.com/AJLoveChina/resume
 
 hobbies:
-- name: Video Games
+- name: 爬山
   iconClass: fa fa-gamepad
   url: https://example.com
 
-- name: Drawing
+- name: 游泳
   iconClass: fa fa-pencil
   url: https://example.com
 
 contributions:
-- name: best-resume-ever
-  description: 👔 💼 Build fast 🚀 and easy multiple beautiful resumes.
-  url: https://github.com/salomonelli/best-resume-ever
+- name: resume
+  description: 改改数据创作多款个人简历
+  url: https://github.com/AJLoveChina/resume
 
 contact:
-  email: john.doe@email.com
-  phone: 0123 456789
-  street: 1234 Broadway
-  city: New York
-  website: johndoe.com
-  github: johnyD
+  email: 735267452@qq.com
+  phone: 130xxxx1029
+  street: 蜀山区大铺头
+  city: 合肥
+  website: hejie.nigeerhuo.com
+  github: AJLoveChina
 # en, de, fr, pt, ca, cn, it, es, th, pt-br, ru, sv, id, hu, pl, ja, ka, nl, he, zh-tw, lt, ko, el
-lang: en
+lang: cn
 `

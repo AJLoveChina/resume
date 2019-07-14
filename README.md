@@ -1,6 +1,6 @@
 <h1 align="center">
   <br>
-  <a href="https://github.com/salomonelli/best-resume-ever">
+    <a href="https://github.com/AJLoveChina/resume">
   <img src="src/assets/logo.png" alt="Markdownify" width="200"></a>
   <br>
   best-resume-ever
@@ -49,7 +49,7 @@ best-resume-ever requires at least node v.8.5.0.
 
 1. Clone this repository.
 ```
-git clone https://github.com/salomonelli/best-resume-ever
+git clone https://github.com/AJLoveChina/resume
 ```
 
 2. Go to the cloned directory (e.g. `cd best-resume-ever`).
@@ -102,4 +102,4 @@ This project uses several open source packages:
 
 ## License
 
-[MIT](https://github.com/salomonelli/best-resume-ever/blob/master/LICENCE.md)
+[MIT](https://github.com/AJLoveChina/resume/blob/master/LICENCE.md)
