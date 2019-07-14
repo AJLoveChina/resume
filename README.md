@@ -3,18 +3,13 @@
     <a href="https://github.com/AJLoveChina/resume">
   <img src="src/assets/logo.png" alt="Markdownify" width="200"></a>
   <br>
-  best-resume-ever
+  resume
   <br>
 </h1>
 
-<div align="center">
-
-[![Travis badge](https://travis-ci.org/salomonelli/best-resume-ever.svg?branch=master)](https://travis-ci.org/salomonelli/best-resume-ever)
-
-</div>
 
 <h4 align="center">
-  :necktie: :briefcase: Build fast :rocket: and easy multiple beautiful resumes and create your best CV ever!
+  :star:改改数据就可以创作你自己的简历(多种款式哦)
   <br><br>
   Made with Vue and LESS.
 </h4>
@@ -37,69 +32,32 @@
 <br>
 <br>
 
-## Prerequisite
+## 要求
 
-1. It is required to have NodeJs with version 8.5 or higher
+1. NodeJs >= 8.5
 
-2. If you do not have installed node.js in your machine then go to [this link](https://nodejs.org/en/download/) in order to install node.
+2. 如果没有按照ndoejs,请到[this link](https://nodejs.org/en/download/)下载
 
-## How to use
+## 如何使用
 
-best-resume-ever requires at least node v.8.5.0.
-
-1. Clone this repository.
+1. 克隆这个仓库
 ```
 git clone https://github.com/AJLoveChina/resume
 ```
 
-2. Go to the cloned directory (e.g. `cd best-resume-ever`).
+2. Go to the cloned directory (e.g. `cd resume`).
 
 3. Run `npm install`.
 
-4. Customize your resume in the `resume/` directory: edit your data `data.yml` and replace your profile-picture `id.jpg`.
+4. 所有的个人简历数据都在 `resume/` 文件夹下面: 修改 `data.yml` 并且替换您的个人头像照片 `id.jpg`.
 
-5. Preview resumes with `npm run dev`.
+5. 网页预览简历的命令是 `npm run dev`.
 
-6. Export with `npm run export`.
+如果需要生成静态网页,使用命令 `npm run docs`, 静态网站在 `docs`目录下面
 
+如果需要导出简历位PDF文件的命令`npm run export`. 所有格式的PDF文件都会在 `/pdf`文件夹下面
 
-All resumes will be exported to the `pdf/` folder.
-
-<br>
-
-
-## Creating and Updating Templates
-
-Please read the <a href="DEVELOPER.md">developer docs</a> on how to create or update templates.
-
-<br>
-
-
-## Contribute
-
-Feel free to add your own templates, language supports, fix bugs or improve the docs. Any kind of help is appreciated! If you make any kind of changes to an existing template, please commit them as new templates.
-
-<br>
-
-
-## Credits
-
-This project uses several open source packages:
-
-* <a href="https://github.com/vuejs/vue" target="_blank">Vue</a>
-* <a href="https://github.com/GoogleChrome/puppeteer" target="_blank">Puppeteer</a>
-* <a href="https://github.com/less/less.js" target="_blank">LESS</a>
-
-<br>
-
-
----
-
-> [sarasteiert.com](https://www.sarasteiert.com) &nbsp;&middot;&nbsp;
-> GitHub [@salomonelli](https://github.com/salomonelli) &nbsp;&middot;&nbsp;
-> Twitter [@salomonelli](https://twitter.com/salomonelli)
 
 
 ## License
-
-[MIT](https://github.com/AJLoveChina/resume/blob/master/LICENCE.md)
+MIT
